@@ -5,6 +5,11 @@ POP3 CLIENT
 Есть возможность получать информацию выборочно.
 
 Запуск: 
+
 pop3.py -l logon -p password -n letter_number 
+
+
 Необязательные параметры: 
+
+
 --s server_name -a additionals
