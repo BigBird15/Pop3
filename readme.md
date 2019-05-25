@@ -1,8 +1,10 @@
 POP3 CLIENT
 
-Программа для чтения писем с почтовых серверов (yandex, gmail, mail)
+Программа для чтения писем с почтовых серверов (yandex - по умолчанию, gmail, mail)
 Выводит адреса отправтеля и получателя, дату отправления письма, тему, содержание, а также скачивает приложенные файлы в текущую директорию.
 Есть возможность получать информацию выборочно.
 
 Запуск: 
-pop3.py -l logon -p password -n letter_number (--s server_name -a additionals)
+pop3.py -l logon -p password -n letter_number 
+Необязательные параметры: 
+--s server_name -a additionals
