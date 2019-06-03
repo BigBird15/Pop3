@@ -30,6 +30,9 @@ def parse(msg, additionals):
     res = '\n'
     for i in range(2, len(add) - 1):
         res += base64.b64decode(add[i][1]).decode()
+       
+    if res == '\n':
+        res = '*No theme*'
 
     subject = res
 
